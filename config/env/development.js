@@ -1,7 +1,8 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/activecrm-dev',
+	// db: 'mongodb://localhost/activecrm-dev',
+	db: 'mongodb://activecrm:active123@ds047612.mongolab.com:47612/activecrm',
 	app: {
 		title: 'activecrm - Development Environment'
 	},
